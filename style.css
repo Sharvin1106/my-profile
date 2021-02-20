@@ -1,0 +1,378 @@
+/* Main Home Part */
+.main-section-divider {
+  background-size: cover;
+  background-position: 0% 40%;
+  height: 700px;
+}
+
+.top-img {
+  background-image: url(globe.jpg);
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 20px 20px 0px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.brand-name-highlight {
+  color: #c3073f;
+}
+
+.nav-item {
+  padding: 18px;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+}
+
+/* The main introduction */
+.short-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.MyMainPic {
+  width: 10%;
+  border-radius: 100%;
+  height: 20%;
+  top: 300px;
+  position: absolute;
+}
+
+.H1-Intro {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1.5;
+  color: #c3073f;
+  top: 450px;
+  position: absolute;
+}
+
+.H3-Intro {
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: whitesmoke;
+  top: 530px;
+  position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+  .MyMainPic {
+    width: 25%;
+    border-radius: 100%;
+    height: 20%;
+    top: 300px;
+    position: absolute;
+  }
+
+  .H1-Intro {
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #c3073f;
+    /* color: black; */
+    top: 450px;
+    position: absolute;
+  }
+
+  .H3-Intro {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: whitesmoke;
+    top: 530px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .MyMainPic {
+    width: 20%;
+    border-radius: 100%;
+    height: 20%;
+    top: 300px;
+    position: absolute;
+  }
+}
+
+/* Biodata */
+
+#Details {
+  background-color: #162447;
+  padding: 7% 15%;
+  font-family: "Ubuntu";
+}
+
+.intro-pic-column {
+  text-align: left;
+}
+p {
+  font-family: "Montserrat";
+  color: white;
+}
+.intro-pic {
+  width: 100%;
+  box-shadow: 10px 10px 5px #1b1b2f;
+}
+
+h3 {
+  color: #ff4136;
+}
+
+h1 {
+  color: white;
+}
+
+hr {
+  width: 70px;
+  height: 2px;
+  background-color: #ff4136;
+  margin: 0px;
+  size: 40px;
+}
+
+.details-paragraph {
+  padding: 20px 0px 20px;
+}
+.column {
+  color: white;
+  margin: 0px 10px 0px;
+}
+
+.details-table {
+  border: 2px groove #ff4136;
+  padding: 20px;
+  border-radius: 5px;
+  /* margin-top: 140px; */
+}
+
+/* Skills part */
+#Skills {
+  background-color: #1b1b2f;
+  padding: 7% 15%;
+}
+
+.skill-header {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.card {
+  margin: 50px 0px 40px;
+  background-color: #1f4068;
+  color: black;
+  font-family: "Montserrat";
+  animation: grow 1.6s ease-in-out infinite;
+}
+
+.card-text {
+  margin: 8px 0px 6px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+.card-title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.skills-header {
+  font-family: "Ubuntu";
+  font-weight: 600;
+  font-size: 32px;
+}
+.progress {
+  height: 6px;
+}
+.progress-bar {
+  background-color: #e43f5a;
+}
+
+/* Education */
+#Education {
+  background-color: #1f4068;
+  text-align: center;
+  color: #e43f5a;
+  font-family: "Ubuntu";
+}
+
+#Education > h1 {
+  padding: 4% 15% 0% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  font-family: "Montserrat";
+}
+
+.testimonial-text1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 35px;
+  color: #e43f5a;
+}
+
+.testimonial-text2 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 23px;
+  color: white;
+  font-style: italic;
+}
+
+.testimonial-text3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: black;
+}
+
+/* Miscellaneous */
+
+#Misc {
+  background-color: #162447;
+  padding: 7% 15%;
+  text-align: center;
+  font-family: "Ubuntu";
+}
+
+.nav-pills {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  color: #e43f5a;
+  font-family: "Montserrat";
+}
+
+.li-nav {
+  margin: 10px;
+}
+
+.red a,
+.red a:hover {
+  color: #e43f5a;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.flip-card {
+  background-color: transparent;
+  border: 1px solid #ff4136;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin: 8px;
+}
+
+.big-card {
+  width: 90%;
+  height: 96%;
+}
+
+.small-card {
+  width: 200px;
+  height: 200px;
+}
+
+.small-card-column {
+  margin: 5px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #c3073f;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.big-card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.small-card-img {
+  width: 200px;
+  height: 200px;
+}
+
+.activity-card {
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #1b1b2f;
+}
+
+#footer {
+  background-color: #1b1b2f;
+  padding: 2% 8%;
+}
+
+.div-social-media {
+  border: 2px groove #ff4136;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.section-divider-social-media {
+  border-right: 2px groove #ff4136;
+}
+
+.section-divider-social-media > p {
+  color: whitesmoke;
+  line-height: 1.5;
+}
+
+.sub-footer {
+  padding-top: 2%;
+}

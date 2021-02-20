@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sharvin</title>
+
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CSS Stylesheet-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <!--Bootstrap Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid top-img main-section-divider">
+        <!-- Nav Bar -->
+        <!--1. The students need to know the basic concept on how to build a navigation bar-->
+        <!--2. If they are okay in building a navigation bar then just apply the bootstrap class-->
+        <!--3. Make sure to teach them the important navbar class-->
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-transparent"
+          id="Navigation"
+        >
+          <a class="navbar-brand" href="#"><span class="brand-name-highlight">S</span>harvin</a>
+          <!--This code refers to the toggler button that appears when the screen size become smaller, thus the all the navbar items go into the button-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+           <!----------------------------------------------------------------------------------->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#Details" style="color: #c3073f">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Misc">Awards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- The code below here refers to the picture and the caption in the center of the landing section-->
+        <!--1. If students are slow and they cannot catch up, maybe can omit the picture part. But I think fast student can do that-->
+        <div class="container main-img short-intro">
+          <img src="dp2.jpg" alt="" class="MyMainPic" />
+          <h1 class="H1-Intro">Sharvin Kogilavanan</h1>
+          <h3 class="H3-Intro">You only live once</h3>
+        </div>
+        <!---------------------------------------------------------------------------------------------------->
+      </div>
+    </section>
+    <!--This section refers to the second section of the webpage. This section contains their basic details-->
+    <section id="Details">
+      <div class="row">
+        <div class="col-lg-6 intro-pic-column">
+          <img class="intro-pic" src="MyPic.jpg" alt="" />
+        </div>
+        <div class="col-lg-6">
+          <div class="details-heading">
+            <h3>Discover</h3>
+            <h1>About Me</h1>
+            <!--This horizontal line is not necessary, I put for design purpose. Maybe the fast students can come up with their new idea or-->
+            <!--they still can apply the same design, but we just give them hint how to build the horizontal line and let them do by their own-->
+            <hr />
+            <!----------------------------------------------------------------------------------------------------------------------------------->
+          </div>
+          <div class="details-paragraph" id="details">
+            <p class="text-left">
+              I’m an undergraduate student at USM.  I’m very passionate about my course besides being dedicated to it. I have always wanted to solve real world problems with the knowledge that I have acquired. Moreover, I try new things regarding computer science that’s not in our syllabus.
+            </p>
+          </div>
+          <!--1. This section dont advise the slow pace or moderate students to use tables, just ask them to use basic column and row idea-->
+          <!--2. If you allow the students to use tables, they need to learn more HTML tags, but I think the fast students can catch up-->
+          <!--3. But make sure they do it in a correct way and its responsive-->
+          <div class="details-table">
+            <div class="row">
+              <div class="column" >
+                <p><b>Name:</b> Sharvin Kogilavanan</p>
+                <p><b>Phone:</b> +60 113605 5713</p>
+                <p><b>Academic Year:</b> 2 </p>
+                <p><b>Github:</b> Sharvin1106</p>
+              </div>
+              <div class="column">
+                <p><b>Age:</b> 21</p>
+                <p><b>Address:</b> One Foresta</p>
+                <p><b>University:</b> USM</p>
+                <p><b>Course:</b> Computer Science</p>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------------------------------------------------------------------------------------------------>
+        </div>
+      </div>
+    </section>
+    <!--1. This is one of the section with massive lines of codes which takes up around 145 lines-->
+    <!--2. The reason behind it is because of the prebuilt elements of bootstrap-->
+    <!--3. So the instructor can give the flexibility to omit any parts regardless whether, the progress bar or cards-->
+    <!--4. This section is built with cards and progress bar-->
+    <!--5. There are total of 3 cards and each card has 5 progress bar. So the instructor can think of what are the parts they can omit to reduce the student burden-->
+    <section id="Skills">
+      <div class="container-fluid">
+        <h1 class="skill-header">Skills</h1>
+        <div class="row">
+          <!--First card related to professionalism-->
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Programming Languages</h5>
+                <p class="card-text">C++</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 85%"
+                  ></div>
+                </div>
+                <p class="card-text">Java</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 50%"
+                  ></div>
+                </div>
+                <p class="card-text">HTML & CSS</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 95%"
+                  ></div>
+                </div>
+                <p class="card-text">Javascript</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 70%"
+                  ></div>
+                </div>
+                <p class="card-text">Python</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 70%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <!--Second card related to Personal skills-->
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <p class="card-text">Firebase</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 80%"
+                  ></div>
+                </div>
+                <p class="card-text">NodeJS</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 65%"
+                  ></div>
+                </div>
+                <p class="card-text">Microsoft Azure</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 50%"
+                  ></div>
+                </div>
+                <p class="card-text">Bootstrap</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 90%"
+                  ></div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------------------------------------------------------------>
+          <!--Third card related to languages-->
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Languages</h5>
+                <p class="card-text">English</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 80%"
+                  ></div>
+                </div>
+                <p class="card-text">Malay</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 80%"
+                  ></div>
+                </div>
+                <p class="card-text">Tamil</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 100%"
+                  ></div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------------------------------------------------------------------->
+        </div>
+      </div>
+    </section>
+    <!--1. This section is all about their education-->
+    <!--2. This section I used carousel instead of cards because obviously they have not much experience, so they have nothing much to write about the education-->
+    <!--3. Carousel is important as many websites used them-->
+    <section id="Education">
+      <h1>Education</h1>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-text1">SJK(T) Subramaniya Barathee</h2>
+            <h3 class="testimonial-text2">UPSR</h3>
+            <img class="testimonial-image" src="sblogo.png" alt="dog-profile" />
+            <br />
+            <em class="testimonial-text3">2007 - 2012</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text1">Penang Free School</h2>
+            <h3 class="testimonial-text2">Sijil Pelajaran Malaysia, SPM</h3>
+            <img
+              class="testimonial-image"
+              src="pfslogo.png"
+              alt="lady-profile"
+            />
+            <br />
+            <em class="testimonial-text3">2013 - 2017</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text1">Perak Matriculation College</h2>
+            <h3 class="testimonial-text2">Foundation in Science</h3>
+            <img
+              class="testimonial-image"
+              src="kmpklogo.png"
+              alt="lady-profile"
+            />
+            <br />
+            <em class="testimonial-text3">2018 - 2019</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text1">Universiti Sains Malaysia</h2>
+            <h3 class="testimonial-text2">
+              Bachelor of Computer Science(Hons.)
+            </h3>
+            <img
+              class="testimonial-image"
+              src="usmlogo.png"
+              alt="lady-profile"
+            />
+            <br />
+            <em class="testimonial-text3">2019 - Present</em>
+          </div>
+        </div>
+        <!--1. This part refers to the buttons you can find on the both sides of the carousel-->
+        <!--2. This is just copy paste thing only-->
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!------------------------------------------------------------------------------------------------------------------>
+    <!--1. This section refers to the activities and awards together. I dont know how to name this section so I put misc-->
+    <!--2. Maybe the instructor can change the name of this section-->
+    <!--3. In this part, my plan is not for the students to follow exactly same as-->
+    <!--4. The only things that they must follow us is using nav pills-->
+    <!--5. Navigation pills are similar to the navigation bar. But they dont share some similar characterisitics-->
+    <!--6. In other words, we can call it as mini navigation bar-->
+    <!--7. The purpose of me using nav pills because to put two sections at one place and navigate through it using nav pills buttons-->
+    <!--8. This is the interesting feature of nav pills-->
+    <!--9. You can ask me further if you all want to know more about nav pills-->
+    <section id="Misc">
+      <div class="container-fluid">
+        <h1>Miscellaneous</h1>
+        <ul class="nav nav-pills red">
+          <li class="active li-nav"><a data-toggle="pill" href="#home">Awards</a></li>
+          <li class="li-nav"><a data-toggle="pill" href="#menu1">Activities</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <!--1. This is the content of the first button-->
+          <!--2. This part I adviced the instructors to let the students come up with their own idea-->
+          <!--3. The reson why I say so because, there are also some interesting bootstrap features that I missed here-->
+          <!--4. In my case I used a flip card, maybe you all can ask the students to use hover effects, tooltip, popover and etc-->
+          <!--5. You all can actually find the features that i mention just now in cheat sheet introduced by Naz-->
+          <div id="home" class="tab-pane fade show active">
+            <div class="container">
+            <div class="row" style="margin-top: 40px">
+              <!-- <div class="col-lg-6 col-md-12">
+                <div class="flip-card big-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img class="big-card-img" src="eigth.jpg" alt="Avatar">
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>My BabyTree Program</h1>
+                      <p><b>Participant</b></p>
+                      <p>Planted some tree to save the earth</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12" >
+                <div class="container">
+                <div class="row">
+                  <div class="col-lg-5 col-md-6 small-card-column">
+                <div class="flip-card small-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img class="img-fluid small-card-img" src="second.jpg" alt="Avatar">
+                    </div>
+                    <div class="flip-card-back">
+                      <h1 style="font-size: 12px;">Penang International Science Fair</h1>
+                      <p>Spectator</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-5 col-md-6 small-card-column">
+                <div class="flip-card small-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img class="img-fluid small-card-img" src="third.jpg" alt="Avatar">
+                    </div>
+                    <div class="flip-card-back">
+                      <h1 style="font-size: 12px;">Young Innovate 2017</h1>
+                      <p>Participant</p>
+                      <p>2nd Runner Up</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="row" style="margin:0;">
+                  <div class="col-lg-5 col-md-6 small-card-column">
+                <div class="flip-card small-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img class="img-fluid small-card-img" src="fourth.jpg" alt="Avatar">
+                    </div>
+                    <div class="flip-card-back">
+                      <h1 style="font-size: 12px;">Shell Innovation - Road Safety</h1>
+                      <p>Participant</p>
+                      <p>2nd Runner Up</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-6 small-card-column">
+                <div class="flip-card small-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img class="img-fluid small-card-img" src="fifth.webp" alt="Avatar">
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>Ntg</h1>
+                      <p>No idea</p>
+                      <p>will add later</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div> -->
+          </div>
+          </div>
+          </div>
+          <!-------------------------------------------------------------------------------------------------------------------------->
+          <!--1. This section refers to the students activities, I used cards here-->
+          <!--2. I hope this section the students can come out with their own idea-->
+          <!--3. I advised fast students not to follow this because I am pretty much sure they can come out with their own idea-->
+          <!--4. But slow students still need to follow this-->
+          <div id="menu1" class="tab-pane fade">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="card activity-card">
+                  <div class="card-body">
+                    <img src="telebort.webp" alt="..." class="rounded-circle">
+                    <h5 class="card-title">Telebort's Student Mentor - CS Guru</h5>
+                    <ul class="card-text text-left" >
+                      <li class="card-text" >Full time facilitator for programs offered by Telebort</li>
+                      <li class="card-text">Programs that were facilitated are Fundamental Web Design, Advanced Web Development and Data Analysis with Python</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="card activity-card">
+                  <div class="card-body">
+                    <img src="msp.png" alt="..." class="rounded-circle" width="30%">
+                    <h5 class="card-title">USM Microsoft Student Partners Workshops (Participant)</h5>
+                    <ul class="card-text text-left">
+                      <li class="card-text">Getting Started with Azure Machine Learning Studio</li>
+                      <li class="card-text">Creating a Chat System with SignalR </li>
+                      <li class="card-text">Introduction to Microsoft Power Apps </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--The footer section I prefer to keep it simple. Not to be really fancy. I will share a link that tells why we don't need a fancy footer-->
+    <section id="footer">
+      <div class="container-fluid div-social-media">
+        <div class="row">
+          <div class="col-lg-4 section-divider-social-media">
+            <h2 style="color: white;">Address</h2>
+            <p>12C-2-3, One Foresta, Lengkok Kelicap 3,<br>11900 Bayan Lepas<br>Penang</p>
+          </div>
+          <div class="col-lg-4 section-divider-social-media">
+           <h2 style="color: white;">Contact</h2>
+            <p>011-36055713</p>
+        </div>
+        <div class="col-lg-4">
+          <h2 style="color: white;">Connect With Us</h2>
+          <div class="social-media">
+            <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook"></i></a>
+            <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
+            <a class="btn-floating btn-lg btn-ig" type="button" role="button"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="sub-footer text-center">
+      <a href="#">Back to the top</a>
+    </div>
+    </section>
+  </body>
+</html>
